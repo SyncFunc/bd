@@ -56,9 +56,7 @@ python supervise.py --config config/supervise/badnets/cifar10_resnet18/example.y
 
     Run the following script to train a purified feature extractor:
     ```
-    python simclr.py --config config/defense/simclr/badnets/cifar10_resnet18/example.yaml \
-                     --resume False \
-                     --gpu 0
+    python simclr.py --config config/defense/simclr/badnets/cifar10_resnet18/example.yaml --resume False --gpu 0
     ```
 2. Semi-Supervised Fine-tuning
 
