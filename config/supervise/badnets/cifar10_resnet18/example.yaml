@@ -3,7 +3,7 @@ seed:
   seed: 100
   deterministic: False
   benchmark: True
-dataset_dir: ~/dataset/cifar-10/cifar-10-batches-py
+dataset_dir: ./data/cifar-10-batches-py
 num_classes: 10
 saved_dir: ./saved_data
 storage_dir: ./storage
